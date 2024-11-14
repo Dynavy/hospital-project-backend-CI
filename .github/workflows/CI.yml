@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '11'  # Cambia la versión según necesites
+          java-version: '17'  # Cambia la versión según necesites
 
       # Paso 3: Otorgar permisos de ejecución a mvnw
       - name: Give execute permission to mvnw
